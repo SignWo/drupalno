@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "09d744dbd87f1a0dda7fa439490f7a96",
+    "content-hash": "17d9346a05a2096353525eff06edd9d9",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1764,7 +1764,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.25",
-                    "datestamp": "1542915180",
+                    "datestamp": "1549218480",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1845,7 +1845,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0-alpha5",
-                    "datestamp": "1540513084",
+                    "datestamp": "1550449381",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -2823,7 +2823,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0",
-                    "datestamp": "1493401742",
+                    "datestamp": "1549603381",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3002,7 +3002,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.2",
-                    "datestamp": "1544537280",
+                    "datestamp": "1551355085",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3109,12 +3109,20 @@
                     "role": "contributor"
                 },
                 {
+                    "name": "Drupal Media Team",
+                    "homepage": "https://www.drupal.org/user/3260690"
+                },
+                {
                     "name": "Primsi",
                     "homepage": "https://www.drupal.org/user/282629"
                 },
                 {
                     "name": "marcingy",
                     "homepage": "https://www.drupal.org/user/77320"
+                },
+                {
+                    "name": "oknate",
+                    "homepage": "https://www.drupal.org/user/471638"
                 },
                 {
                     "name": "samuel.mortenson",
@@ -3282,7 +3290,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.3",
-                    "datestamp": "1531469021",
+                    "datestamp": "1548968580",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3394,7 +3402,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.2",
-                    "datestamp": "1543322281",
+                    "datestamp": "1547998080",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3518,7 +3526,7 @@
                     }
                 },
                 "patches_applied": {
-                    "Add option to make the starting level follow the active menu item (https://www.drupal.org/files/issues/2018-07-02/menu_block-follow-2756675-51.patch)": "https://www.drupal.org/files/issues/2018-07-02/menu_block-follow-2756675-51.patch"
+                    "Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2018-07-02/menu_block-follow-2756675-51.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3639,7 +3647,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.7",
-                    "datestamp": "1535726393",
+                    "datestamp": "1550692511",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3861,7 +3869,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.5",
-                    "datestamp": "1541009695",
+                    "datestamp": "1550692525",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3925,7 +3933,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.2",
-                    "datestamp": "1531587221",
+                    "datestamp": "1545611280",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -4034,7 +4042,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.3",
-                    "datestamp": "1521320880",
+                    "datestamp": "1548967980",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4540,17 +4548,17 @@
         },
         {
             "name": "drupal/webform",
-            "version": "5.0.0-rc29",
+            "version": "5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/webform",
-                "reference": "8.x-5.0-rc29"
+                "reference": "8.x-5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform-8.x-5.0-rc29.zip",
-                "reference": "8.x-5.0-rc29",
-                "shasum": "f96e42f54b1cd69f0d67c4a88f32c5a8a570e50d"
+                "url": "https://ftp.drupal.org/files/projects/webform-8.x-5.1.zip",
+                "reference": "8.x-5.1",
+                "shasum": "d04743f078dc154685f9532253e6b5ea8dda1a56"
             },
             "require": {
                 "drupal/core": "*"
@@ -4573,11 +4581,11 @@
                     "dev-5.x": "5.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-5.0-rc29",
-                    "datestamp": "1544223180",
+                    "version": "8.x-5.1",
+                    "datestamp": "1549473699",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 },
                 "drush": {
@@ -10451,6 +10459,17 @@
         {
             "name": "webflo/drupal-core-require-dev",
             "version": "8.6.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webflo/drupal-core-require-dev.git",
+                "reference": "c3b99d2add865e7308c109ef1735a39a9575ce57"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webflo/drupal-core-require-dev/zipball/c3b99d2add865e7308c109ef1735a39a9575ce57",
+                "reference": "c3b99d2add865e7308c109ef1735a39a9575ce57",
+                "shasum": ""
+            },
             "require": {
                 "behat/mink": "1.7.x-dev",
                 "behat/mink-goutte-driver": "^1.2",
